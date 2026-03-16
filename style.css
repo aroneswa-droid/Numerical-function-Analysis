@@ -1,0 +1,38 @@
+body{
+margin:0;
+font-family:sans-serif;
+
+background-image:url("images/background.png");
+background-size:cover;
+background-position:center;
+
+color:white;
+text-align:center;
+}
+
+.game{
+padding:20px;
+}
+
+.card-area{
+display:flex;
+gap:20px;
+justify-content:center;
+margin-top:40px;
+}
+
+.card{
+width:120px;
+}
+
+.card img{
+width:120px;
+height:170px;
+border-radius:10px;
+border:2px solid white;
+}
+
+.card p{
+margin-top:5px;
+font-size:14px;
+}
